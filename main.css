@@ -9,6 +9,7 @@ header{
     background-color: #182c61;
     color: #ecf0f1;
 }
+
 header nav li{
     display: inline;
     margin-left: 16px;
@@ -26,7 +27,8 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,4 +40,27 @@ header .container{
 
 .brand-list li{
     display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    margin-bottom: 24px 0;
+}
+
+section h2{
+    margin: 16px;
+}
+
+.sectionp{
+    margin-bottom: 8px;
+}
+
+section img{
+    margin-bottom: 32px ;
+}
+.store-flont{
+    margin-right: 32px ;
 }
